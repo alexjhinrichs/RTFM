@@ -129,7 +129,7 @@ angular.module('rtfmApp')
 
     $scope.threads = $firebaseArray(threadsRef)
 
-    $scope.threads.$loaded().then(function (threads) {
+    $scope.threads.$loaded().then(function(threads) {
       console.log(threads);
     });
 
